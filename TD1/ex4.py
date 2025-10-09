@@ -1,8 +1,9 @@
-prices = [100 , 250 , 75 , 300]
-discounts = [0.1 , 0.2 , 0.05 , 0.15]
+prices = [100, 250, 75, 300]
+discounts = [0.1, 0.2, 0.05, 0.15]
 
 # 1. Use map () to apply the discounts .
 from functools import reduce
+
 discounted_prices = list(map(lambda p, d: p * (1 - d), prices, discounts))
 print("Discounted prices:", discounted_prices)
 # 2. Use filter () to find discounted prices > 200.

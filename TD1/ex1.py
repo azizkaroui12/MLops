@@ -1,9 +1,4 @@
-students = {
-" Alice " : 85 ,
-" Bob " : 92 ,
-" Charlie " : 78 ,
-" Diana " : 88
-}
+students = {" Alice ": 85, " Bob ": 92, " Charlie ": 78, " Diana ": 88}
 
 # 1. Retrieve the score for " Charlie " using get ().
 x = students.get(" Charlie ")
@@ -22,11 +17,11 @@ for i in students.keys():
     print(i)
 
 # 5. Print all scores using values ().
-  
+
 for i in students.values():
     print(i)
 
-# 6. Print all (name , score ) pairs using items ().    
+# 6. Print all (name , score ) pairs using items ().
 print("Student scores:")
 for n, s in students.items():
     print(f"{n}: {s}")

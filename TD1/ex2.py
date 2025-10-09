@@ -1,10 +1,10 @@
-languages = [ " Python " , " JavaScript " , " SQL " ]
+languages = [" Python ", " JavaScript ", " SQL "]
 
 # 1. Append " Java " to the list .
 languages.append(" Java ")
 
 # 2. Extend the list with [" HTML " , "CSS "].
-languages.extend([" HTML " , " CSS "])
+languages.extend([" HTML ", " CSS "])
 
 # 3. Sort the list alphabetically .
 languages.sort()
